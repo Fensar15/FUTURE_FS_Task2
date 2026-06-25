@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini CRM — Admin Login</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="auth-shell">
+    <div class="auth-card">
+      <div class="brand-mark">Mini CRM</div>
+      <h1>Admin sign in</h1>
+      <p class="sub">Manage leads, follow-ups, and conversions.</p>
+
+      <div id="alertBox"></div>
+
+      <form id="loginForm">
+        <div class="form-field">
+          <label class="field-label" for="username">Username</label>
+          <input type="text" id="username" autocomplete="username" required />
+        </div>
+        <div class="form-field">
+          <label class="field-label" for="password">Password</label>
+          <input type="password" id="password" autocomplete="current-password" required />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="loginBtn">Sign in</button>
+      </form>
+
+      <p class="hint">
+        First time here? A default admin account was created for you:<br />
+        username <code>admin</code> · password <code>admin123</code><br />
+        (set your own in the <code>.env</code> file before sharing this with anyone)
+      </p>
+    </div>
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
