@@ -89,8 +89,8 @@ npm start
 
 Then open:
 
-- **Admin dashboard:** http://localhost:5000/login.html
-- **Public contact form:** http://localhost:5000/contact.html
+- **Admin dashboard:** [Admin](http://localhost:5000/login.html)
+- **Public contact form:** [public](http://localhost:5000/contact.html)
 
 On first run, the server creates an admin account automatically and
 prints the credentials to the terminal (default: `admin` / `admin123`,
